@@ -1,7 +1,7 @@
 const express = require("express");
 const { faker } = require("@faker-js/faker");
 const mysql = require("mysql2");
-const app = express();
+const app = express();// need to clear
 const path = require("path");
 const methodOverride = require("method-override");
 const { v4: uuidv4 } = require("uuid");
